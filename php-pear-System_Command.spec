@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - commandline execution interface
 Name:		php-pear-%{_pearname}
-Version:	1.0.5
+Version:	1.0.6
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
