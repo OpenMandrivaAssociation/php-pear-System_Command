@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.6
-Release:	%mkrel 5
+Version:	1.0.7
+Release:	%mkrel 1
 Summary:	Commandline execution interface
 License:	PHP License
 Group:		Development/PHP
