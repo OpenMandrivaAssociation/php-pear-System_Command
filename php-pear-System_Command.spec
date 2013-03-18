@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.7
-Release:	4
+Version:	1.0.8
+Release:	1
 Summary:	Commandline execution interface
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/System_Command/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/System_Command-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -126,4 +126,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-1mdk
 - initial Mandriva package (PLD import)
+
 
