@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.8
-Release:	1
+Release:	2
 Summary:	Commandline execution interface
 License:	PHP License
 Group:		Development/PHP
