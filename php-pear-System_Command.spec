@@ -8,7 +8,7 @@ Release:	2
 Summary:	Commandline execution interface
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/System_Command/
+URL:		https://pear.php.net/package/System_Command/
 Source0:	http://download.pear.php.net/package/System_Command-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
